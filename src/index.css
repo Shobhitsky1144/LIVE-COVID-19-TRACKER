@@ -1,0 +1,54 @@
+
+body {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+h1, p, h2 {
+    color: white;
+}
+
+ul{
+    margin-left: -3rem;
+    list-style-type:none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+    
+
+}
+ul li{
+    height: 200px;
+    border-radius: 50%;
+}
+.card:first-child,.card:nth-child(5){
+    background-color:blue;
+}
+.card:nth-child(2){
+    background-color:green;
+}
+
+.card:nth-child(3),.card:nth-child(6){
+    background-color:rgb(255, 0, 64);
+}
+
+.card:nth-child(4){
+    background-color:orange;
+}
+span{
+    font-size:15px ;
+}
+.card_name{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.card_total_card{
+   margin-top: -1rem;
+   font-size: 60px;
+   font-weight: bold;
+   
+}
